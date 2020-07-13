@@ -1,0 +1,319 @@
+/* GLOBAL **********************************/
+@font-face{
+    font-family: HelveticaNeue;
+    src: url(fonts/HelveticaNeueLTStd-Lt.otf);
+}
+
+body, a{    
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434343;
+    padding: 0;
+    margin: 0;    
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER **********************************/
+header{
+    padding-top: 15px;
+    min-height: 70px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 0 0 20px;
+}
+
+header #search{
+    float: left;
+}
+
+header #searchimage{
+    float:right;
+    width:15px;
+    height:15px;
+    padding-right: 5px;
+}
+
+header #rightbar{
+    float: right;
+}
+
+header #rightbar #cartimage{
+    float:left;
+    width:20px;
+    height:20px;
+    padding-right: 5px;
+}
+
+header #logo{
+    clear: both;
+    
+    text-align: center;
+    font-size: 30px;
+    
+    padding: 50px 0 20px 0;
+}
+
+header #logoimage{
+    width:500px;
+    height:50px;
+    padding-right: 5px;
+}
+
+header #categories{
+    clear: both;
+}
+
+header .sticky {
+    width: 70%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    clear: both;
+    position: fixed;
+    background: #fbfff0;
+    top: 0;
+    z-index: 1000;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+header #categorieslist{
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header #categorieslist li{
+    padding: 0 20px 0 20px;
+}
+
+/* CONTENT **********************************/
+
+/* Scroll to top */
+#scrollToTopText{
+    padding-top: 10px;
+    font-size: 15px; 
+    color: #7A7A7A;
+}
+
+.scrollToTopSection{
+    width: 14%;
+    height: 100%;
+    position: fixed;          
+}
+
+.scrollToTopButton{
+    width: 8%;
+    height: 100%;    
+    position: fixed;    
+    text-align: center;
+    transition: 0.3s;
+}
+
+.scrollToTopSection:hover > .scrollToTopButton{
+    background: #eef4de;
+    color: black;
+}
+
+.scrollToTopSection:hover > #scrollToTopText{
+}
+
+/* Body (Content) */
+#content{
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#content img:hover {
+    filter: contrast(90%);
+    filter: brightness(105%);
+}
+
+#content img{
+    transition: 0.2s;
+}
+
+/* Mystery Box Banner (BannerM) */
+section div #bannerMText{
+    
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+section div #bannerM div{
+    display:inline-block;
+}
+section div #bannerM img {    
+    padding-top: 50px;
+    width: 228px;        
+}
+
+section div #bannerM .box{
+    display: inline-block;
+    background: #FDFDFD;
+    width: 351px;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Banner 1 - Main banner in index.php */
+section div #banner1 img{
+    display:inline-block;
+    width: 348px;     
+}
+
+section div #banner1{
+    text-align: center;
+}
+
+section div #banner1image1{
+    padding-right: 5px;
+}
+
+section div #banner1image2{
+    padding-right: 5px;
+}
+
+/* Title1 */
+section div #title1{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+section div #title1 .shop{
+    float: right;
+    margin-top: 4px;
+    margin-right: 10px;;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+section .shop:hover{
+    text-decoration: none;
+}
+
+/* Banner2 - Product banner*/
+section div #banner2{
+    text-align: center;
+}
+
+section div #banner2 .product{
+    display: inline-block;
+    
+    width: 209px;
+    height: 350px;
+        
+    text-align: left;
+}
+
+section #banner2 .product span{
+    color: #5d5d5d;
+    font-size: 14px;
+}
+
+section div #banner2 .product img{
+    width: 200px;
+}
+
+/* Banner 3 Pop-up store banner */
+section #banner3{
+    padding-top: 50px;
+    text-align: center;
+}
+
+section #banner3image{
+    width: 100%;
+    margin-right: 6px;    
+}
+
+/* Banner 4 - Follow, Share, Shop Banner */
+section #banner4{
+    padding-top: 50px;
+    text-align: center;
+}
+
+section #banner4image{
+    width: 100%;
+    
+    padding-right: 8px;
+    transition: 0.2s;
+}
+
+/* Banner 5 - Banner in goods page */
+section #banner5{
+    padding-top: 50px;
+    text-align: center;
+}
+
+section #banner5 img{
+    width: 262px;
+}
+
+section #banner5image{
+/*    width: 100%;*/
+    height: 10px;
+    padding-right: 8px;
+}
+
+/* bodyText text div */
+#bodyText{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+/* Sign in page*/
+#logoSignIn {
+    clear: both;
+    
+    text-align: center;
+    font-size: 30px;
+    
+    padding: 10px 0 20px 0;
+}
+
+input{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input:focus{
+	background-color: lightyellow;
+}
+
+button{ 
+    background-color: lightyellow;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+} 
+
